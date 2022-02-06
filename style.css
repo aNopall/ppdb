@@ -1,0 +1,232 @@
+body {
+    font-family: 'roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
+.about-title {
+    color: #000;
+    font-weight: 700;
+    display: block;
+    margin: 0 0;
+}
+
+.about-title::after {
+    content: '';
+    border-bottom: 2px solid #999;
+    width: 150px;
+    display: block;
+    margin: 20px 0 0 0;
+    left: 0;
+}
+
+.line {
+    color: #707070;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.line::after {
+    content: '';
+    border-bottom: 2px solid #999;
+    width: 150px;
+    display: block;
+    margin: 20px auto 50px auto;
+    left: 0;
+}
+
+/* Navbar Start */
+
+.nav-link {
+    margin-right: 25px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(img/hamburger.png);
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent; 
+    color: transparent;
+}
+
+/* Navbar End */
+
+/* Jumbotron Start */
+
+.jumbotron {
+    background-image: url(img/Jumbotron.png);
+    background-position: center;
+    background-size: cover;
+    height: 720px;
+    color: #fff;
+    margin-top: -120px;
+}
+
+.jumbotron h1 {
+    font-size: 64px;
+}
+
+.jumbotron p {
+    font-size: 18px;
+}
+
+p.mobile {
+    font-size: 0;
+}
+
+/* Jumbotron End */
+
+/* Panel Start */
+
+.panel h4 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.panel p {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.panel h3 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.info-panel {
+    width: 1000px;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-top: -100px;
+    background-color: #fff;
+}
+
+/* Panel End */
+
+/* About Start */
+
+.about img {
+    width: 500px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #707070;
+}
+
+/* About End */
+
+/* Guide Start */
+
+.guide h1 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    margin: 30px auto;
+    width: 130px;
+}
+
+.card-guide {
+    flex: 1 1 auto;
+    padding: 1.5rem 1rem;
+}
+
+.guide h4 {
+    font-size: 20px;
+    margin-top: -30px; 
+}
+
+.guide p {
+    font-size: 16px;
+    color: #707070;
+    margin: 15px auto;
+}
+
+.btn-guide {
+    background-color: #2880CE;
+    border-radius: 5px;
+}
+
+.btn-guide:hover {
+    background-color: #256ead;
+    transition-duration: 0.3s;
+}
+
+.guide a {
+    font-family: 'Quicksand';
+    color: #fff;
+}
+
+.guide a:hover {
+    color: #fff;
+}
+
+/* Guide End */
+
+/* Helpdesk Start */
+
+.helpdesk h1 {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.helpdesk .row {
+    margin-top: 20px;
+}
+
+.card-help {
+    flex: 1 1 auto;
+    padding: 2rem 1.3rem 1.3rem 1.3rem;
+}
+
+.helpdesk h3 {
+    font-size: 24px;
+    color: #000;
+}
+
+.helpdesk p {
+    font-size: 16px;
+    color: #707070;
+}
+
+a.help {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2880CE;
+}
+
+a.help:hover {
+    color: #256ead;
+    transition-duration: 0.3s;
+}
+
+/* Helpdesk End */
+
+/* Footer Start */
+
+.footer {
+    margin-top: 70px;
+}
+
+/* Footer End */
